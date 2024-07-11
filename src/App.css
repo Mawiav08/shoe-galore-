@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .App-logo {
@@ -13,15 +14,36 @@
   }
 }
 
+.App-header h1 {
+  font-size: 3em; 
+}
+
+.App-header p {
+  font-size: 1.5em;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 150px;
   color: white;
+}
+
+.shoe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.shoe-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 .App-link {
